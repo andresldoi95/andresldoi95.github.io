@@ -1,13 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Andrés León Doylet</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1>Hi, I am Andrés León! This is my web page.</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Andrés León</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#whoami"
+                >Who am I?</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                My Tech Stack
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#backend">Backend</a></li>
+                <li><a class="dropdown-item" href="#frontend">Frontend</a></li>
+                <li>
+                  <a class="dropdown-item" href="#databases">Databases</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row" id="whoami">
+        <div class="col-md-2 col-12">
+          <div class="card">
+            <img
+              src="/assets/img/andres2.png"
+              class="card-img-top"
+              alt="Andrés León"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Andrés Alexander León Doylet</h5>
+              <p class="card-text">
+                Hi, my name is Andrés León Doylet, I'm a software developer with
+                +8 years of experience in the field. I'm a full stack developer
+                with a strong focus on backend development. I'm a fast learner
+                and I'm always looking to improve my skills.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Graduated as: <strong>Systems Engineer</strong> in
+                <strong>Universidad Católica de Santiago de Guayaquil</strong>,
+                Ecuador
+              </li>
+              <li class="list-group-item">
+                Date of birth: <strong>March 12, 1995</strong>
+              </li>
+              <li class="list-group-item">
+                Residence city: <strong>Guayaquil, Ecuador</strong>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://www.linkedin.com/in/andresldoi"
+                target="_blank"
+                class="card-link"
+                ><i class="fa-brands fa-linkedin"></i> My Linkedin</a
+              >
+              <a href="/assets/docs/cv.pdf" target="_blank" class="card-link"
+                ><i class="fa-solid fa-file-pdf"></i> Check my CV</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">My Experience</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Details about my experience as a software developer
+              </h6>
+              <p class="card-text">
+                I started my career as a software developer in 2015, while I was university student in Universidad Católica Santiago de Guayaquil.
+              </p>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title">Agrobizsa S.A.</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                My first job!
+              </h6>
+              <p class="card-text">
+                In 2015, I started to job in this company as a junior developer, the place where I learned a lot of things about software development, 
+                I worked with a lot of technologies like VB.NET, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap, Wordpress, etc. I worked in this company for almost 5 months.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Inventory and billing
+                </li>
+                <li class="list-group-item">
+                  Wordpress sites mantenance and management
+                </li>
+                <li class="list-group-item">
+                  Mail design and management
+                </li>
+                <li class="list-group-item">
+                  Git fundamentals
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title">Surmiplex S.A.</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                The stability job
+              </h6>
+              <p class="card-text">
+                This was my second job. I worked in this company for almost 2 years, I worked with a lot of technologies like 
+                VB.NET, C# .NET, ASP.NET and SQL Server. This was the place where I found stability and began to learn more about analysis and design of software.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Desktop applications development with VB.NET, <strong>SEDI</strong> system for <strong>Dinardap</strong>
+                </li>
+                <li class="list-group-item">
+                  ASP.NET management web application for <strong>SEDI</strong> system
+                </li>
+                <li class="list-group-item">
+                  Database syncronization between local and remote SQL Server databases
+                </li>
+                <li class="list-group-item">
+                  <strong>SOAP</strong> web services development
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title">TQMG Partners</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Seniority
+              </h6>
+              <p class="card-text">
+                This was my first job as a senior developer, I worked in this company for almost 4 months, I worked with technologies like Ember.js,
+                Android development with Java and Swift language. I learned a lot of things about mobile and frontend development.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Android application for <strong>ChivasTV</strong> streaming service
+                </li>
+                <li class="list-group-item">
+                  Ember.js application for <strong>ChivasTV</strong> web client
+                </li>
+                <li class="list-group-item">
+                  Swift application mantenance for <strong>ChivasTV</strong> iOS client
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title">Dimutza S.A.</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                Seniority and leadership
+              </h6>
+              <p class="card-text">
+                In 2017 I started I new road in my career, I started to work in Dimutza S.A. as a senior developer, I worked in this company for almost 1 year,
+                I was in charge of a team of 4 developers, I developed new skills related to system analysis, projects management and team organization. I also
+                worked with technologies like Laravel, Vue.js, MySQL, Spring MVC, Spring Boot, Hibernate, etc.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <strong>Legendarios</strong> web application development with Laravel and Vue.js
+                </li>
+                <li class="list-group-item">
+                  <strong>Casa de fé</strong> web application re-design and development with Laravel and Vue.js
+                </li>
+                <li class="list-group-item">
+                  <strong>Enrollment</strong> system development with Spring MVC and Hibernate
+                </li>
+                <li class="list-group-item">
+                  <strong>SOAP</strong> web service for <strong>Enrollment</strong> system
+                </li>
+                <li class="list-group-item">
+                  <strong>SEDI</strong> system support and new modules
+                </li>
+                <li class="list-group-item">
+                  <strong>Rest API</strong> development with Laravel
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mt-2">
+            <div class="card-body">
+              <h5 class="card-title">Kimerasoft</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">
+                CTO and Cofounder
+              </h6>
+              <p class="card-text">
+                <strong>Kimerasoft</strong> was a project started in 2016 but it was completely made reality in 2017 ending, I was in charge of the technical area of the company,
+                but I also had a great responsability in the business area, I was in charge of projects management, team organization and clients relationship.
+                I developed a great quantity of skills related to business management and development projects. 
+                We worked with technologies like Laravel, Vue.js, MySQL, Java, .NET.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
