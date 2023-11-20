@@ -18,8 +18,8 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Andrés León</a>
         <button
@@ -38,6 +38,14 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#whoami"
                 >Who am I?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#myexperience"
+                >My experience</a
               >
             </li>
             <li class="nav-item dropdown">
@@ -59,15 +67,16 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="container-fluid">
-      <div class="row" id="whoami">
-        <div class="col-md-2 col-12">
+      <div class="row py-4">
+        <div id="whoami" class="col-md-2 col-12">
+          <h4 class="text-center">Who am I?</h4>
           <div class="card">
             <img
               src="/assets/img/andres2.png"
@@ -77,10 +86,11 @@
             <div class="card-body">
               <h5 class="card-title">Andrés Alexander León Doylet</h5>
               <p class="card-text">
-                Hi, my name is Andrés León Doylet, I'm a software developer with
-                +8 years of experience in the field. I'm a full stack developer
-                with a strong focus on backend development. I'm a fast learner
-                and I'm always looking to improve my skills.
+                Hi, my name is Andrés León Doylet. I am a software developer
+                with over 8 years of experience in the field. Specializing as a
+                full-stack developer, I have a strong focus on backend
+                development. I am a quick learner and am always seeking
+                opportunities to enhance my skills.
               </p>
             </div>
             <ul class="list-group list-group-flush">
@@ -106,18 +116,24 @@
               <a href="/assets/docs/cv.pdf" target="_blank" class="card-link"
                 ><i class="fa-solid fa-file-pdf"></i> Check my CV</a
               >
+              <a href="https://github.com/andresldoi95" target="_blank" class="card-link"
+                ><i class="fa-brands fa-github"></i> Visit my Github Profile</a
+              >
             </div>
           </div>
         </div>
-        <div class="col-md-10 col-12">
+        <div id="myexperience" class="col-md-10 col-12">
+          <h4 class="text-center">My experience</h4>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">My Experience</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Details about my experience as a software developer
-              </h6>
               <p class="card-text">
-                I started my career as a software developer in 2015, while I was university student in Universidad Católica Santiago de Guayaquil.
+                I began my career as a software developer in 2015 while I was a
+                university student at Universidad Católica Santiago de
+                Guayaquil. Since then, I have been involved in numerous projects
+                and have gained experience working with various technologies and
+                resources in the field of software development. Over the course
+                of my career, I have had the opportunity to contribute to
+                backend, frontend, and mobile development.
               </p>
             </div>
           </div>
@@ -128,22 +144,20 @@
                 My first job!
               </h6>
               <p class="card-text">
-                In 2015, I started to job in this company as a junior developer, the place where I learned a lot of things about software development, 
-                I worked with a lot of technologies like VB.NET, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap, Wordpress, etc. I worked in this company for almost 5 months.
+                In 2015, I began working at this company as a junior developer,
+                where I gained valuable experience in software development.
+                During my time there, I worked with various technologies such as
+                VB.NET, MySQL, JavaScript, jQuery, HTML, CSS, Bootstrap,
+                WordPress, and more. I dedicated almost 5 months to contributing
+                to projects and expanding my skill set.
               </p>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  Inventory and billing
-                </li>
+                <li class="list-group-item">Inventory and billing</li>
                 <li class="list-group-item">
                   Wordpress sites mantenance and management
                 </li>
-                <li class="list-group-item">
-                  Mail design and management
-                </li>
-                <li class="list-group-item">
-                  Git fundamentals
-                </li>
+                <li class="list-group-item">Mail design and management</li>
+                <li class="list-group-item">Git fundamentals</li>
               </ul>
             </div>
           </div>
@@ -154,18 +168,24 @@
                 The stability job
               </h6>
               <p class="card-text">
-                This was my second job. I worked in this company for almost 2 years, I worked with a lot of technologies like 
-                VB.NET, C# .NET, ASP.NET and SQL Server. This was the place where I found stability and began to learn more about analysis and design of software.
+                This was my second job, where I spent nearly 2 years. During
+                this time, I engaged with various technologies such as VB.NET,
+                C# .NET, ASP.NET, and SQL Server. It was in this role that I
+                found stability and began delving deeper into the realms of
+                software analysis and design.
               </p>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  Desktop applications development with VB.NET, <strong>SEDI</strong> system for <strong>Dinardap</strong>
+                  Desktop applications development with VB.NET,
+                  <strong>SEDI</strong> system for <strong>Dinardap</strong>
                 </li>
                 <li class="list-group-item">
-                  ASP.NET management web application for <strong>SEDI</strong> system
+                  ASP.NET management web application for
+                  <strong>SEDI</strong> system
                 </li>
                 <li class="list-group-item">
-                  Database syncronization between local and remote SQL Server databases
+                  Database syncronization between local and remote SQL Server
+                  databases
                 </li>
                 <li class="list-group-item">
                   <strong>SOAP</strong> web services development
@@ -176,22 +196,25 @@
           <div class="card mt-2">
             <div class="card-body">
               <h5 class="card-title">TQMG Partners</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Seniority
-              </h6>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Seniority</h6>
               <p class="card-text">
-                This was my first job as a senior developer, I worked in this company for almost 4 months, I worked with technologies like Ember.js,
-                Android development with Java and Swift language. I learned a lot of things about mobile and frontend development.
+                This was my first job as a senior developer. I spent nearly 4
+                months at this company, where I worked with technologies such as
+                Ember.js, Android development using Java, and Swift language.
+                During this period, I acquired extensive knowledge in mobile and
+                frontend development.
               </p>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  Android application for <strong>ChivasTV</strong> streaming service
+                  Android application for <strong>ChivasTV</strong> streaming
+                  service
                 </li>
                 <li class="list-group-item">
                   Ember.js application for <strong>ChivasTV</strong> web client
                 </li>
                 <li class="list-group-item">
-                  Swift application mantenance for <strong>ChivasTV</strong> iOS client
+                  Swift application mantenance for <strong>ChivasTV</strong> iOS
+                  client
                 </li>
               </ul>
             </div>
@@ -203,22 +226,30 @@
                 Seniority and leadership
               </h6>
               <p class="card-text">
-                In 2017 I started I new road in my career, I started to work in Dimutza S.A. as a senior developer, I worked in this company for almost 1 year,
-                I was in charge of a team of 4 developers, I developed new skills related to system analysis, projects management and team organization. I also
-                worked with technologies like Laravel, Vue.js, MySQL, Spring MVC, Spring Boot, Hibernate, etc.
+                In 2017, I embarked on a new chapter in my career by joining
+                Dimutza S.A. as a senior developer. I dedicated nearly 1 year to
+                this company, where I led a team of 4 developers. During this
+                time, I honed my skills in system analysis, project management,
+                and team organization. Additionally, I worked with technologies
+                such as Laravel, Vue.js, MySQL, Spring MVC, Spring Boot,
+                Hibernate, etc.
               </p>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <strong>Legendarios</strong> web application development with Laravel and Vue.js
+                  <strong>Legendarios</strong> web application development with
+                  Laravel and Vue.js
                 </li>
                 <li class="list-group-item">
-                  <strong>Casa de fé</strong> web application re-design and development with Laravel and Vue.js
+                  <strong>Casa de fé</strong> web application re-design and
+                  development with Laravel and Vue.js
                 </li>
                 <li class="list-group-item">
-                  <strong>Enrollment</strong> system development with Spring MVC and Hibernate
+                  <strong>Enrollment</strong> system development with Spring MVC
+                  and Hibernate
                 </li>
                 <li class="list-group-item">
-                  <strong>SOAP</strong> web service for <strong>Enrollment</strong> system
+                  <strong>SOAP</strong> web service for
+                  <strong>Enrollment</strong> system
                 </li>
                 <li class="list-group-item">
                   <strong>SEDI</strong> system support and new modules
@@ -236,16 +267,135 @@
                 CTO and Cofounder
               </h6>
               <p class="card-text">
-                <strong>Kimerasoft</strong> was a project started in 2016 but it was completely made reality in 2017 ending, I was in charge of the technical area of the company,
-                but I also had a great responsability in the business area, I was in charge of projects management, team organization and clients relationship.
-                I developed a great quantity of skills related to business management and development projects. 
-                We worked with technologies like Laravel, Vue.js, MySQL, Java, .NET.
+                <strong>Kimerasoft</strong> was initiated as a project in 2016
+                but fully materialized by the end of 2017. In this endeavor, I
+                held the position of overseeing the technical aspect of the
+                company, and I also assumed significant responsibilities in the
+                business domain. My role encompassed projects management, team
+                organization, and client relationships. Throughout this
+                experience, I cultivated a diverse set of skills in business
+                management and project development. Our work involved utilizing
+                technologies such as Laravel, Vue.js, MySQL, Java, .NET, among
+                others.
+              </p>
+              <p class="card-text">
+                Now, I have decided to take on new challenges, and I am looking
+                for new opportunities around the world.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Administration and implementation of cloud infrastructure on
+                  Google Cloud, Docker containers, and Amazon Web Services
+                </li>
+                <li class="list-group-item">
+                  Backend, frontend, database, and systems development
+                </li>
+                <li class="list-group-item">
+                  Development, implementation, and deployment of ERP system
+                </li>
+                <li class="list-group-item">
+                  Development of system for container repair and control
+                </li>
+                <li class="list-group-item">
+                  Development of logistics system for salespeople
+                </li>
+                <li class="list-group-item">
+                  Development of electronic invoicing and inventory control
+                  systems
+                </li>
+                <li class="list-group-item">
+                  Development of HL7 protocol control systems for clinical
+                  laboratory
+                </li>
+                <li class="list-group-item">
+                  Development of vehicle fleet control system using GPS devices
+                </li>
+                <li class="list-group-item">
+                  Administration and management of Linux and Windows servers
+                </li>
+                <li class="list-group-item">
+                  Management and training of junior and internship developers
+                </li>
+                <li class="list-group-item">
+                  Leading customer meetings and requirements analysis
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-center">My tech stack</h4>
+      <div class="row">
+        <div class="col-sm-12"></div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card border-primary">
+            <div class="card-body">
+              <div id="backend" class="card-title">Backend</div>
+              <ul>
+                <li>Laravel Framework (PHP, Filament, Livewire)</li>
+                <li>Nest.js (Node JS)</li>
+                <li>Spring Boot (Java)</li>
+                <li>.NET Core (C# .NET)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card border-secondary">
+            <div class="card-body">
+              <div id="frontend" class="card-title">Backend</div>
+              <ul>
+                <li>
+                  Vue.js (Javascript, Typescript, HTML, CSS, Bootstrap,
+                  TailwindCSS)
+                </li>
+                <li>React.js (Next.js, Typescript, Javascript))</li>
+                <li>Angular (Typescript, Material UI)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card border-warning">
+            <div class="card-body">
+              <div id="databases" class="card-title">Databases</div>
+              <ul>
+                <li>MySQL</li>
+                <li>SQL Server</li>
+                <li>Postgre SQL</li>
+                <li>SQLite</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <h4 id="portfolio" class="text-center">My portfolio</h4>
+          <div class="card mb-3">
+            <div class="card-header">Coming soon!</div>
+            <div class="card-body">
+              <p class="card-text">
+                I am preparing public repositories for my portfolio. Stay tuned! You can check my github profile <a target="_blank" href="https://github.com/andresldoi95">here</a>.
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <footer class="footer bg-primary text-light mt-4 pt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023, Andrés León</p>
+          </div>
+          <div class="col-md-6 text-end">
+            <p>Contact: andresleondoylet@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
